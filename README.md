@@ -33,8 +33,6 @@ Documentar a minha jornada de aprendizado, compartilhar os projetos desenvolvido
 
 ## 📁 Estrutura do Repositório
 
-## 📁 Estrutura do Repositório
-
 - `wex-end-to-end-bootcamp/`
   - `projeto-01-nome/`
   - `projeto-02-nome/`
