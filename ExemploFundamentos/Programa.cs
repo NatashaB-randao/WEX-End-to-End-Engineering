@@ -1,5 +1,7 @@
 using System;
 using System.Collections.Generic;
+using ExemploFundamentos.Models;
+
 
 namespace ExemploFundamentos.Models
 {
