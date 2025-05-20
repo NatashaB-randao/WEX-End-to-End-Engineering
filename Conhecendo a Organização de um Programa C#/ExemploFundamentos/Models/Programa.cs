@@ -5,6 +5,9 @@ using ExemploFundamentos.Models;
 
 namespace ExemploFundamentos.Models
 {
+    /// <summary>
+    /// Classe Cliente representa um cliente com nome, email e telefone.
+    /// </summary>
     public class Cliente
     {
         public string Nome { get; set; }
