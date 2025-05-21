@@ -1,0 +1,15 @@
+D:\Natasha\Projetos\WEX-End-to-End-Engineering\ExemploExplorando\bin\Debug\net9.0\ExemploExplorando.exe
+D:\Natasha\Projetos\WEX-End-to-End-Engineering\ExemploExplorando\bin\Debug\net9.0\ExemploExplorando.deps.json
+D:\Natasha\Projetos\WEX-End-to-End-Engineering\ExemploExplorando\bin\Debug\net9.0\ExemploExplorando.runtimeconfig.json
+D:\Natasha\Projetos\WEX-End-to-End-Engineering\ExemploExplorando\bin\Debug\net9.0\ExemploExplorando.dll
+D:\Natasha\Projetos\WEX-End-to-End-Engineering\ExemploExplorando\bin\Debug\net9.0\ExemploExplorando.pdb
+D:\Natasha\Projetos\WEX-End-to-End-Engineering\ExemploExplorando\obj\Debug\net9.0\ExemploExplorando.GeneratedMSBuildEditorConfig.editorconfig
+D:\Natasha\Projetos\WEX-End-to-End-Engineering\ExemploExplorando\obj\Debug\net9.0\ExemploExplorando.AssemblyInfoInputs.cache
+D:\Natasha\Projetos\WEX-End-to-End-Engineering\ExemploExplorando\obj\Debug\net9.0\ExemploExplorando.AssemblyInfo.cs
+D:\Natasha\Projetos\WEX-End-to-End-Engineering\ExemploExplorando\obj\Debug\net9.0\ExemploExplorando.csproj.CoreCompileInputs.cache
+D:\Natasha\Projetos\WEX-End-to-End-Engineering\ExemploExplorando\obj\Debug\net9.0\ExemploExplorando.sourcelink.json
+D:\Natasha\Projetos\WEX-End-to-End-Engineering\ExemploExplorando\obj\Debug\net9.0\ExemploExplorando.dll
+D:\Natasha\Projetos\WEX-End-to-End-Engineering\ExemploExplorando\obj\Debug\net9.0\refint\ExemploExplorando.dll
+D:\Natasha\Projetos\WEX-End-to-End-Engineering\ExemploExplorando\obj\Debug\net9.0\ExemploExplorando.pdb
+D:\Natasha\Projetos\WEX-End-to-End-Engineering\ExemploExplorando\obj\Debug\net9.0\ExemploExplorando.genruntimeconfig.cache
+D:\Natasha\Projetos\WEX-End-to-End-Engineering\ExemploExplorando\obj\Debug\net9.0\ref\ExemploExplorando.dll
