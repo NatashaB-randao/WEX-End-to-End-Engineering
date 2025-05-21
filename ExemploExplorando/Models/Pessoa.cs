@@ -28,6 +28,15 @@ namespace ExemploExplorando.Models
         }
 
 
+        public string Sobrenome { get; set; }
+        public string NomeCompleto
+        {
+            get
+            {
+                return $"{Nome} {Sobrenome}".ToUpper();
+            }
+        }     
+
         public int Idade
         {
             get
@@ -48,7 +57,7 @@ namespace ExemploExplorando.Models
 
         public void Apresentar()
         {
-            Console.WriteLine($"Nome: {Nome}, Idade: {Idade}");
+            Console.WriteLine($"Nome: {NomeCompleto}, Idade: {Idade}");
         }
     }
 }
