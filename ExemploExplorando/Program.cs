@@ -2,8 +2,8 @@
 using ExemploExplorando.Models;
 
 
-Pessoa p1 = new Pessoa("Natasha", "Brandão");                       // Instanciação da classe Pessoa
-Pessoa p2 = new Pessoa("Eduardo", "Neves Queiroz");                       // Instanciação da classe Pessoa
+Pessoa p1 = new Pessoa(nome: "Natasha",sobrenome: "Brandão");                       // Instanciação da classe Pessoa
+Pessoa p2 = new Pessoa(nome: "Eduardo", sobrenome: "Neves Queiroz");                       // Instanciação da classe Pessoa
 
 
 Curso cursoDeIngles = new Curso();               // Instanciação da classe Curso

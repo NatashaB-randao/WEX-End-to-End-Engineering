@@ -12,10 +12,10 @@ namespace ExemploExplorando.Models
         {
             
         }
-        // Costrutor com parâmetros
         public Pessoa(string nome, string sobrenome)
         {
-
+            Nome = nome;
+            Sobrenome = sobrenome;
         }
 
 
