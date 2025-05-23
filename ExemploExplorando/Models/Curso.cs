@@ -25,9 +25,9 @@ namespace ExemploExplorando.Models
             return quantidade;
         }
 
-        public void RemoverAluno(Pessoa aluno)
+        public bool RemoverAluno(Pessoa aluno)
         {
-            Alunos.Remove(aluno);
+            return Alunos.Remove(aluno);
         }
 
     }
