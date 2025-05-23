@@ -2,14 +2,8 @@
 using ExemploExplorando.Models;
 
 
-Pessoa p1 = new Pessoa();                       // Instanciação da classe Pessoa
-p1.Nome = "Natasha";                            // Atribuição de valor à propriedade Nome
-p1.Sobrenome = "Brandão";                       // Atribuição de valor à propriedade Sobrenome
-
-
-Pessoa p2 = new Pessoa();                       // Instanciação da classe Pessoa
-p2.Nome = "Eduardo";                            // Atribuição de valor à propriedade Nome
-p2.Sobrenome = "Neves Queiroz";                 // Atribuição de valor à propriedade Sobrenome
+Pessoa p1 = new Pessoa("Natasha", "Brandão");                       // Instanciação da classe Pessoa
+Pessoa p2 = new Pessoa("Eduardo", "Neves Queiroz");                       // Instanciação da classe Pessoa
 
 
 Curso cursoDeIngles = new Curso();               // Instanciação da classe Curso
