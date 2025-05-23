@@ -2,9 +2,32 @@
 using ExemploExplorando.Models;
 
 
-Pessoa p1 = new Pessoa();   // Instanciação da classe Pessoa
-p1.Nome = "Natasha";          // Atribuição de valor à propriedade Nome
-p1.Sobrenome = "Brandão";   // Atribuição de valor à propriedade Sobrenome
-p1.Idade = 26;             // Atribuição de valor à propriedade Idade
-p1.Apresentar();             // Chamada do método Apresentar
+Pessoa p1 = new Pessoa();                       // Instanciação da classe Pessoa
+p1.Nome = "Natasha";                            // Atribuição de valor à propriedade Nome
+p1.Sobrenome = "Brandão";                       // Atribuição de valor à propriedade Sobrenome
 
+
+Pessoa p2 = new Pessoa();                       // Instanciação da classe Pessoa
+p2.Nome = "Eduardo";                            // Atribuição de valor à propriedade Nome
+p2.Sobrenome = "Neves Queiroz";                 // Atribuição de valor à propriedade Sobrenome
+
+
+Curso cursoDeIngles = new Curso();               // Instanciação da classe Curso
+cursoDeIngles.Nome = "Inglês";                   // Atribuição de valor à propriedade Nome
+cursoDeIngles.Alunos = new List<Pessoa>();       // Inicialização da lista de alunos
+
+cursoDeIngles.AdicionarAluno(p1);               // Adiciona o aluno p1 à lista de alunos
+cursoDeIngles.AdicionarAluno(p2);               // Adiciona o aluno p2 à lista de alunos
+cursoDeIngles.ListarAlunos();                   // Chama o método para listar os alunos
+
+
+
+
+
+
+
+// Pessoa p1 = new Pessoa();               // Instanciação da classe Pessoa
+// p1.Nome = "Natasha";                    // Atribuição de valor à propriedade Nome
+// p1.Sobrenome = "Brandão";               // Atribuição de valor à propriedade Sobrenome
+// p1.Idade = 26;                          // Atribuição de valor à propriedade Idade
+// p1.Apresentar();                        // Chamada do método Apresentar
