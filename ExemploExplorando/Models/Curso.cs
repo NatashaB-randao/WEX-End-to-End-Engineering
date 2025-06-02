@@ -49,7 +49,7 @@ namespace ExemploExplorando.Models
                 //Console.WriteLine(Alunos[count].NomeCompleto);
 
                 // Interpolação de strings
-                string texto = $"N° {count} - {Alunos[count].NomeCompleto}";
+                string texto = $"N° {count + 1} - {Alunos[count].NomeCompleto}";
                 Console.WriteLine(texto);
             }
             

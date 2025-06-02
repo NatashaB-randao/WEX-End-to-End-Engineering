@@ -2,17 +2,54 @@
 using ExemploExplorando.Models;
 
 
-Pessoa p1 = new Pessoa(nome: "Natasha",sobrenome: "Brandão");                       // Instanciação da classe Pessoa
-Pessoa p2 = new Pessoa(nome: "Eduardo", sobrenome: "Neves Queiroz");                       // Instanciação da classe Pessoa
+string numero1 = "10";
+string numero2 = "20";
 
 
-Curso cursoDeIngles = new Curso();               // Instanciação da classe Curso
-cursoDeIngles.Nome = "Inglês";                   // Atribuição de valor à propriedade Nome
-cursoDeIngles.Alunos = new List<Pessoa>();       // Inicialização da lista de alunos
+// Concatenação de strings
+string resultado = numero1 + numero2;  
 
-cursoDeIngles.AdicionarAluno(p1);               // Adiciona o aluno p1 à lista de alunos
-cursoDeIngles.AdicionarAluno(p2);               // Adiciona o aluno p2 à lista de alunos
-cursoDeIngles.ListarAlunos();                   // Chama o método para listar os alunos
+Console.WriteLine(resultado);  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Pessoa p1 = new Pessoa(nome: "Natasha",sobrenome: "Brandão");                       // Instanciação da classe Pessoa
+// Pessoa p2 = new Pessoa(nome: "Eduardo", sobrenome: "Neves Queiroz");                       // Instanciação da classe Pessoa
+
+
+// Curso cursoDeIngles = new Curso();               // Instanciação da classe Curso
+// cursoDeIngles.Nome = "Inglês";                   // Atribuição de valor à propriedade Nome
+// cursoDeIngles.Alunos = new List<Pessoa>();       // Inicialização da lista de alunos
+
+// cursoDeIngles.AdicionarAluno(p1);               // Adiciona o aluno p1 à lista de alunos
+// cursoDeIngles.AdicionarAluno(p2);               // Adiciona o aluno p2 à lista de alunos
+// cursoDeIngles.ListarAlunos();                   // Chama o método para listar os alunos
 
 
 
