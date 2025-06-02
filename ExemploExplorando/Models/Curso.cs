@@ -40,9 +40,10 @@ namespace ExemploExplorando.Models
 
             for (int count = 0; count < Alunos.Count; count++)
             {
-                // Acessando a propriedade NomeCompleto da classe Pessoa
+                /*
+                Acessando a propriedade NomeCompleto da classe Pessoa
                 //string texto = "N° " + count + " - " + Alunos[count].NomeCompleto;
-                //Console.WriteLine(texto);
+                Console.WriteLine(texto); */
 
                 // Outra forma de escrever o mesmo código
                 //Console.WriteLine(Alunos[count].NomeCompleto);
