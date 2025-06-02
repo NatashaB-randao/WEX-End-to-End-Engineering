@@ -37,10 +37,21 @@ namespace ExemploExplorando.Models
         public void ListarAlunos()
         {
             Console.WriteLine($"Alunos do curso de {Nome}:");
-            foreach (Pessoa aluno in Alunos)
+
+            for (int count = 0; count < Alunos.Count; count++)
             {
-                Console.WriteLine(aluno.NomeCompleto);
+                // Acessando a propriedade NomeCompleto da classe Pessoa
+                //string texto = "N° " + count + " - " + Alunos[count].NomeCompleto;
+                //Console.WriteLine(texto);
+
+                // Outra forma de escrever o mesmo código
+                //Console.WriteLine(Alunos[count].NomeCompleto);
+
+                // Interpolação de strings
+                string texto = $"N° {count} - {Alunos[count].NomeCompleto}";
+                Console.WriteLine(texto);
             }
+            
         }
 
     }
