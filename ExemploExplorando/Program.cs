@@ -4,11 +4,27 @@ using System.Globalization;
 
 CultureInfo.DefaultThreadCurrentCulture = new CultureInfo("pt-BR");
 
-
-decimal valorMonetario = 82.40M;
+//Formatação personalizada
+decimal valorMonetario = 1582.40M;
 
 // Exibe o valor formatado como moeda
-Console.WriteLine(valorMonetario.ToString("C", CultureInfo.CreateSpecificCulture("en-US"))); 
+Console.WriteLine(valorMonetario.ToString("C2"));
+
+// Representando porcentagem
+double porcentagem = .3421;
+Console.WriteLine(porcentagem.ToString("P"));
+
+
+
+
+
+
+
+// Alterando a localização da cultura
+// decimal valorMonetario = 82.40M;
+
+// // Exibe o valor formatado como moeda
+// Console.WriteLine(valorMonetario.ToString("C", CultureInfo.CreateSpecificCulture("en-US"))); 
 
 
 
