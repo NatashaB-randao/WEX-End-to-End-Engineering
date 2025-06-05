@@ -2,14 +2,31 @@
 using ExemploExplorando.Models;
 
 
-string numero1 = "10";
-string numero2 = "20";
+// Formatando valores monetários
+decimal valorMonetario = 82.40M;
+
+Console.WriteLine($"{valorMonetario:C}");       // Exibe o valor formatado como moeda
 
 
-// Concatenação de strings
-string resultado = numero1 + numero2;  
 
-Console.WriteLine(resultado);  
+
+
+
+
+
+
+
+
+
+
+// string numero1 = "10";
+// string numero2 = "20";
+
+
+// // Concatenação de strings
+// string resultado = numero1 + numero2;  
+
+// Console.WriteLine(resultado);  
 
 
 
