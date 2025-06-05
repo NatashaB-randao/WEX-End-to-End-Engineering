@@ -2,17 +2,47 @@
 using ExemploExplorando.Models;
 using System.Globalization;
 
-CultureInfo.DefaultThreadCurrentCulture = new CultureInfo("pt-BR");
 
-//Formatação personalizada
-decimal valorMonetario = 1582.40M;
 
-// Exibe o valor formatado como moeda
-Console.WriteLine(valorMonetario.ToString("C2"));
+// Obtém a data e hora atual
+DateTime data = DateTime.Now; 
 
-// Representando porcentagem
-double porcentagem = .3421;
-Console.WriteLine(porcentagem.ToString("P"));
+Console.WriteLine($"Data e hora atual: {data}");
+
+// Exibir a data e hora atual sem os segundos
+Console.WriteLine(data.ToString("dd/MM/yyyy HH:mm"));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// CultureInfo.DefaultThreadCurrentCulture = new CultureInfo("pt-BR");
+
+// //Formatação personalizada
+// decimal valorMonetario = 1582.40M;
+
+// // Exibe o valor formatado como moeda
+// Console.WriteLine(valorMonetario.ToString("C2"));
+
+// // Representando porcentagem
+// double porcentagem = .3421;
+// Console.WriteLine(porcentagem.ToString("P"));
 
 
 
