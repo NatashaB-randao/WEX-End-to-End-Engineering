@@ -2,12 +2,27 @@
 using ExemploExplorando.Models;
 using System.Globalization;
 
-CultureInfo.DefaultThreadCurrentCulture = new CultureInfo("en-US");
+CultureInfo.DefaultThreadCurrentCulture = new CultureInfo("pt-BR");
 
-// Formatando valores monetários
+
 decimal valorMonetario = 82.40M;
 
-Console.WriteLine($"{valorMonetario:C}");       // Exibe o valor formatado como moeda
+// Exibe o valor formatado como moeda
+Console.WriteLine(valorMonetario.ToString("C", CultureInfo.CreateSpecificCulture("en-US"))); 
+
+
+
+
+
+
+
+
+
+
+// Formatando valores monetários
+// decimal valorMonetario = 82.40M;
+
+// Console.WriteLine($"{valorMonetario:C}");       // Exibe o valor formatado como moeda
 
 
 
