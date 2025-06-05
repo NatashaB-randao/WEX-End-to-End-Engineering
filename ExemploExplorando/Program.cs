@@ -1,6 +1,8 @@
 ﻿using System.Security.Cryptography.X509Certificates;
 using ExemploExplorando.Models;
+using System.Globalization;
 
+CultureInfo.DefaultThreadCurrentCulture = new CultureInfo("en-US");
 
 // Formatando valores monetários
 decimal valorMonetario = 82.40M;
