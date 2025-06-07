@@ -9,7 +9,15 @@ namespace ExemploExplorando.Models
     {
         public void Metodo1()
         {
-            Metodo2();
+            try
+            {
+                Metodo2();
+            }
+            catch (Exception)
+            {
+                Console.WriteLine("Excessão tratada");
+            }
+            
         }
 
         public void Metodo2()
