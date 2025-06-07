@@ -30,6 +30,9 @@ catch (DirectoryNotFoundException ex)
 catch (Exception ex)
 {
     Console.WriteLine($"Ocorreu um erro: {ex.Message}");
+} finally
+{
+    Console.WriteLine("Chegou até aqui!");
 }
 
 
