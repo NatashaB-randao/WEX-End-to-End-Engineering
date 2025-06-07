@@ -4,13 +4,39 @@ using System.Globalization;
 
 
 
+// Exceções e Coleções com C#
+// Realizando a leitura de um arquivo
+
+string[] linhas = File.ReadAllLines("Arquivos/arquivoLeitura.txt");
+
+foreach (string linha in linhas)
+{
+    Console.WriteLine(linha);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // Obtém a data e hora atual
-DateTime data = DateTime.Now; 
+// DateTime data = DateTime.Now; 
 
-Console.WriteLine($"Data e hora atual: {data}");
+// Console.WriteLine($"Data e hora atual: {data}");
 
-// Exibir a data e hora atual sem os segundos
-Console.WriteLine(data.ToString("dd/MM/yyyy HH:mm"));
+// // Exibir a data e hora atual sem os segundos
+// Console.WriteLine(data.ToString("dd/MM/yyyy HH:mm"));
 
 
 
