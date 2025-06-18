@@ -1,6 +1,30 @@
 ﻿using ExemploPOO.Models;
 
 
+
+
+Aluno a1 = new Aluno();
+a1.Nome = "Ralph Fiennes";
+a1.Idade = 60;
+a1.Nota = 10;              // Atribuindo valor à propriedade Nota
+a1.Apresentar();            // Chamada do método Apresentar
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
 // Instnaciar Conta Corrente -> Intanciar uma classe é criar um objeto a partir dela
 ContaCorrente c1 = new ContaCorrente(12345, 1000);
 
@@ -8,7 +32,7 @@ c1.ExibirSaldo();       // Exibe o saldo inicial
 c1.Sacar(500);          // Tenta sacar 500
 c1.ExibirSaldo();       // Exibe o saldo após o saque
 
-
+*/
 
 
 
