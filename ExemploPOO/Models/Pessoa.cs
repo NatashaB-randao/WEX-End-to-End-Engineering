@@ -12,9 +12,10 @@ namespace ExemploPOO.Models
         public int Idade { get; set; }
 
         // Métodos
-        public void Apresentar()
+        public virtual void Apresentar()                    // Polimorfismo -> Método virtual que pode ser sobrescrito
         {
             Console.WriteLine($"Olá, meu nome é {Nome} e tenho {Idade} anos.");
         }
+        
     }
 }

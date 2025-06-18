@@ -10,6 +10,11 @@ a1.Nota = 10;              // Atribuindo valor à propriedade Nota
 a1.Apresentar();            // Chamada do método Apresentar
 
 
+Professor p1 = new Professor();
+p1.Nome = "Eduard";
+p1.Idade = 30;
+p1.Salario = 5000;         // Atribuindo valor à propriedade Salario
+p1.Apresentar();            // Chamada do método Apresentar
 
 
 
