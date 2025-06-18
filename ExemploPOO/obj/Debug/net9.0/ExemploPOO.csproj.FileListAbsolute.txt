@@ -1,0 +1,15 @@
+D:\Natasha\Projetos\WEX-End-to-End-Engineering\ExemploPOO\bin\Debug\net9.0\ExemploPOO.exe
+D:\Natasha\Projetos\WEX-End-to-End-Engineering\ExemploPOO\bin\Debug\net9.0\ExemploPOO.deps.json
+D:\Natasha\Projetos\WEX-End-to-End-Engineering\ExemploPOO\bin\Debug\net9.0\ExemploPOO.runtimeconfig.json
+D:\Natasha\Projetos\WEX-End-to-End-Engineering\ExemploPOO\bin\Debug\net9.0\ExemploPOO.dll
+D:\Natasha\Projetos\WEX-End-to-End-Engineering\ExemploPOO\bin\Debug\net9.0\ExemploPOO.pdb
+D:\Natasha\Projetos\WEX-End-to-End-Engineering\ExemploPOO\obj\Debug\net9.0\ExemploPOO.GeneratedMSBuildEditorConfig.editorconfig
+D:\Natasha\Projetos\WEX-End-to-End-Engineering\ExemploPOO\obj\Debug\net9.0\ExemploPOO.AssemblyInfoInputs.cache
+D:\Natasha\Projetos\WEX-End-to-End-Engineering\ExemploPOO\obj\Debug\net9.0\ExemploPOO.AssemblyInfo.cs
+D:\Natasha\Projetos\WEX-End-to-End-Engineering\ExemploPOO\obj\Debug\net9.0\ExemploPOO.csproj.CoreCompileInputs.cache
+D:\Natasha\Projetos\WEX-End-to-End-Engineering\ExemploPOO\obj\Debug\net9.0\ExemploPOO.sourcelink.json
+D:\Natasha\Projetos\WEX-End-to-End-Engineering\ExemploPOO\obj\Debug\net9.0\ExemploPOO.dll
+D:\Natasha\Projetos\WEX-End-to-End-Engineering\ExemploPOO\obj\Debug\net9.0\refint\ExemploPOO.dll
+D:\Natasha\Projetos\WEX-End-to-End-Engineering\ExemploPOO\obj\Debug\net9.0\ExemploPOO.pdb
+D:\Natasha\Projetos\WEX-End-to-End-Engineering\ExemploPOO\obj\Debug\net9.0\ExemploPOO.genruntimeconfig.cache
+D:\Natasha\Projetos\WEX-End-to-End-Engineering\ExemploPOO\obj\Debug\net9.0\ref\ExemploPOO.dll

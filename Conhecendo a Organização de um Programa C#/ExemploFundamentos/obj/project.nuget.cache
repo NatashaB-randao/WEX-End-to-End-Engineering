@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "CjGlizRQXVA=",
+  "dgSpecHash": "jrJGcx0rBKo=",
   "success": true,
-  "projectFilePath": "D:\\Natasha\\Projetos\\WEX-End-to-End-Engineering\\ExemploFundamentos\\ExemploFundamentos.csproj",
+  "projectFilePath": "D:\\Natasha\\Projetos\\WEX-End-to-End-Engineering\\Conhecendo a Organização de um Programa C#\\ExemploFundamentos\\ExemploFundamentos.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\natas\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.36\\microsoft.netcore.app.ref.6.0.36.nupkg.sha512",
     "C:\\Users\\natas\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.36\\microsoft.windowsdesktop.app.ref.6.0.36.nupkg.sha512",

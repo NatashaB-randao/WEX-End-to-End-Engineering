@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Natasha\\Projetos\\WEX-End-to-End-Engineering\\ExemploFundamentos\\ExemploFundamentos.csproj",
+      "projectUniqueName": "D:\\Natasha\\Projetos\\WEX-End-to-End-Engineering\\Conhecendo a Organização de um Programa C#\\ExemploFundamentos\\ExemploFundamentos.csproj",
       "projectName": "ExemploFundamentos",
-      "projectPath": "D:\\Natasha\\Projetos\\WEX-End-to-End-Engineering\\ExemploFundamentos\\ExemploFundamentos.csproj",
+      "projectPath": "D:\\Natasha\\Projetos\\WEX-End-to-End-Engineering\\Conhecendo a Organização de um Programa C#\\ExemploFundamentos\\ExemploFundamentos.csproj",
       "packagesPath": "C:\\Users\\natas\\.nuget\\packages\\",
-      "outputPath": "D:\\Natasha\\Projetos\\WEX-End-to-End-Engineering\\ExemploFundamentos\\obj\\",
+      "outputPath": "D:\\Natasha\\Projetos\\WEX-End-to-End-Engineering\\Conhecendo a Organização de um Programa C#\\ExemploFundamentos\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\natas\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -83,7 +83,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301\\RuntimeIdentifierGraph.json"
       }
     }
   }

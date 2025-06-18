@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Natasha\\Projetos\\WEX-End-to-End-Engineering\\ExemploExplorando\\ExemploExplorando.csproj",
-      "projectName": "ExemploExplorando",
-      "projectPath": "D:\\Natasha\\Projetos\\WEX-End-to-End-Engineering\\ExemploExplorando\\ExemploExplorando.csproj",
+      "projectUniqueName": "D:\\Natasha\\Projetos\\WEX-End-to-End-Engineering\\ExemploPOO\\ExemploPOO.csproj",
+      "projectName": "ExemploPOO",
+      "projectPath": "D:\\Natasha\\Projetos\\WEX-End-to-End-Engineering\\ExemploPOO\\ExemploPOO.csproj",
       "packagesPath": "C:\\Users\\natas\\.nuget\\packages\\",
-      "outputPath": "D:\\Natasha\\Projetos\\WEX-End-to-End-Engineering\\ExemploExplorando\\obj\\",
+      "outputPath": "D:\\Natasha\\Projetos\\WEX-End-to-End-Engineering\\ExemploPOO\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\natas\\AppData\\Roaming\\NuGet\\NuGet.Config"
