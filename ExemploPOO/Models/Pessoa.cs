@@ -7,6 +7,12 @@ namespace ExemploPOO.Models
 {
     public class Pessoa
     {
+        // Construtor 
+        public Pessoa(string nome)    
+        {
+            Nome = nome;
+        }
+
         // Propriedades
         public string Nome { get; set; }
         public int Idade { get; set; }

@@ -7,6 +7,13 @@ namespace ExemploPOO.Models
 {
     public class Aluno : Pessoa
     {
+        // Construtor
+        public Aluno(string nome) : base(nome)  // Chama o construtor da classe base Pessoa
+        {
+            
+        }
+
+
         public double Nota { get; set; }
 
         public override void Apresentar()           // Sobrescrevendo o método Apresentar da classe Pessoa

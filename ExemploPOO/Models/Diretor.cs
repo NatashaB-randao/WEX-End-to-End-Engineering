@@ -5,18 +5,15 @@ using System.Threading.Tasks;
 
 namespace ExemploPOO.Models
 {
-
-    public class Professor : Pessoa
+    public class Diretor : Professor
     {
-        public Professor(string nome) : base(nome)
+        public Diretor(string nome) : base(nome)
         {
         }
 
-        public decimal Salario { get; set; }
-
         public override void Apresentar()           // Sobrescrevendo o método Apresentar da classe Pessoa
         {
-            Console.WriteLine($"Olá, meu nome é {Nome}, tenho {Idade} anos e sou professor com salário de {Salario:C}.");
+            Console.WriteLine("Diretor");
         }
     }
 }
