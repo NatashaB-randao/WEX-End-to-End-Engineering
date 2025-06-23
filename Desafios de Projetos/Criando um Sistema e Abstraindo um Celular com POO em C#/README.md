@@ -27,7 +27,7 @@ O projeto segue a estrutura definida no diagrama UML, implementando:
   - `ReceberLigacao()` - Funcionalidade comum
   - `InstalarAplicativo(string nomeApp)` - Método abstrato
 
-### Classes Filhas: `Nokia` e `Iphone`
+###  Classes Filhas: `Nokia` e `Iphone`
 - Herdam todas as propriedades e métodos da classe `Smartphone`
 - Implementam o método `InstalarAplicativo` de forma específica:
   - **Nokia**: Instalação via "Nokia Store"
