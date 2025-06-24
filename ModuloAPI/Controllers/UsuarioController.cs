@@ -22,6 +22,13 @@ namespace ModuloAPI.Controllers
             // Retorna um objeto anônimo com a data e hora atual
             return Ok(obj);
         }
+
+        [HttpGet("Apresentar/{nome}")]
+        public IActionResult Apresentar(string nome)
+        {
+            var mensagem = $"Bem-vindo ao ModuloAPI, {nome}!";
+            return Ok(new { mensagem });
+        }
     
     }
 }

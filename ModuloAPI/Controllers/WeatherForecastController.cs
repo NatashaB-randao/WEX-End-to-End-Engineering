@@ -15,16 +15,19 @@ public class WeatherForecastController : ControllerBase
     public IEnumerable<WeatherForecast> Get()
     {
         return Enumerable.Range(1, 5).Select(index => new WeatherForecast
-        (
-            DateOnly.FromDateTime(DateTime.Now.AddDays(index)),
-            Random.Shared.Next(-20, 55),
-            Summaries[Random.Shared.Next(Summaries.Length)]
-        ))
+        {
+            Date = DateTime.Now.AddDays(index),
+            TemperatureC = Random.Shared.Next(-20, 55),
+            Summary = Summaries[Random.Shared.Next(Summaries.Length)]
+        })
         .ToArray();
     }
 }
 
-public record WeatherForecast(DateOnly Date, int TemperatureC, string? Summary)
+public class WeatherForecast
 {
+    public DateTime Date { get; set; }
+    public int TemperatureC { get; set; }
+    public string? Summary { get; set; }
     public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
 }
