@@ -318,4 +318,4 @@ Este fluxo de trabalho foi projetado para garantir qualidade e eficiência no de
 
 *Documento criado em 04/07/2025 - Versão 1.0*
 *Projeto: SwagLabs Shopping (SS)*
-*Responsável: [Seu Nome]*
+*Responsável: [Natasha Brandão]*
