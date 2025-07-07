@@ -92,3 +92,77 @@
 - Redirecionamento indevido para página interna
 - Erro 500 ou travamento do sistema
 - Mensagem revela informações do banco de dados
+
+
+---
+# Casos de Teste e Análise de User Story
+
+## 1. Caso de Teste Step by Step - Cadastro de Usuário
+
+### **Cenário 3: Cadastro de novo usuário com dados válidos**
+
+---
+
+### **PASSO 1**
+**PASSO:** Acessar a página de cadastro do sistema  
+**DADOS DE TESTE:** URL do ambiente de QA  
+**RESULTADO ESPERADO:** Página de cadastro carregada com formulário visível
+
+---
+
+### **PASSO 2**
+**PASSO:** Preencher o campo Nome completo  
+**DADOS DE TESTE:** João Silva Santos  
+**RESULTADO ESPERADO:** Campo preenchido com o nome informado
+
+---
+
+### **PASSO 3**
+**PASSO:** Preencher o campo E-mail  
+**DADOS DE TESTE:** joao.santos@teste.com  
+**RESULTADO ESPERADO:** Campo preenchido com e-mail válido
+
+---
+
+### **PASSO 4**
+**PASSO:** Preencher o campo Senha  
+**DADOS DE TESTE:** MinhaSenh@123  
+**RESULTADO ESPERADO:** Campo preenchido com senha mascarada
+
+---
+
+### **PASSO 5**
+**PASSO:** Preencher o campo Confirmar Senha  
+**DADOS DE TESTE:** MinhaSenh@123  
+**RESULTADO ESPERADO:** Campo preenchido com confirmação da senha
+
+---
+
+### **PASSO 6**
+**PASSO:** Selecionar checkbox "Aceito os termos de uso"  
+**DADOS DE TESTE:** -  
+**RESULTADO ESPERADO:** Checkbox marcado e habilitado
+
+---
+
+### **PASSO 7**
+**PASSO:** Clicar no botão "Cadastrar"  
+**DADOS DE TESTE:** -  
+**RESULTADO ESPERADO:** Sistema processa o cadastro
+
+---
+
+### **PASSO 8**
+**PASSO:** Verificar mensagem de sucesso  
+**DADOS DE TESTE:** -  
+**RESULTADO ESPERADO:** Mensagem "Cadastro realizado com sucesso" é exibida
+
+---
+
+### **PASSO 9**
+**PASSO:** Verificar redirecionamento para página de login  
+**DADOS DE TESTE:** -  
+**RESULTADO ESPERADO:** Usuário é redirecionado para tela de login
+
+---
+
