@@ -14,37 +14,6 @@ Repositório dedicado à documentação e organização de casos de teste seguin
 - Servir como base de conhecimento para novos testadores
 - Demonstrar aplicação de metodologias ágeis em testes
 
-## 🏗️ Estrutura do Repositório
-
-```
-📂 casos-de-teste/
-├── 📂 step-by-step/
-│   ├── login-credenciais-invalidas.md
-│   ├── cadastro-usuario-valido.md
-│   └── template-step-by-step.md
-├── 📂 bdd-scenarios/
-│   ├── busca-produtos.feature
-│   ├── finalizacao-compra.feature
-│   └── template-bdd.feature
-├── 📂 mind-maps/
-│   ├── user-story-carrinho-compras.md
-│   └── template-mind-map.md
-├── 📂 planos-teste/
-│   ├── plano-teste-geral.md
-│   └── template-plano-teste.md
-├── 📂 relatorios/
-│   ├── relatorio-execucao-template.md
-│   └── metricas-qualidade.md
-├── 📂 documentacao/
-│   ├── conceitos-fundamentais.md
-│   ├── boas-praticas.md
-│   └── ferramentas-recomendadas.md
-├── 📂 templates/
-│   ├── caso-teste-template.md
-│   ├── bug-report-template.md
-│   └── test-plan-template.md
-└── README.md
-```
 
 ## 🚀 Como Usar Este Repositório
 
