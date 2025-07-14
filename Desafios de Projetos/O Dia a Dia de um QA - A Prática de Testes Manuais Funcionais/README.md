@@ -149,24 +149,6 @@ cp templates/caso-teste-template.md step-by-step/novo-caso-teste.md
 - Inclua dados de teste realistas
 - Mantenha consistência na formatação
 
-## 📞 Contato e Suporte
-
-### **Equipe de QA:**
-- **QA Lead:** [Seu Nome] - [seu.email@empresa.com]
-- **Automation Engineer:** [Nome] - [email@empresa.com]
-- **Manual Tester:** [Nome] - [email@empresa.com]
-
-### **Recursos:**
-- 📖 [Documentação Wiki](link-para-wiki)
-- 🎓 [Treinamentos](link-para-treinamentos)
-- 💬 [Canal Slack #qa-team](link-para-slack)
-
-
-## 🏆 Reconhecimentos
-
-- Equipe de desenvolvimento por colaboração contínua
-- Comunidade de QA por compartilhamento de conhecimento
-- Ferramentas open source que tornam nosso trabalho possível
 
 ---
 
