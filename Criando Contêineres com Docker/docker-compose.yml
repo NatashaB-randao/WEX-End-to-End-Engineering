@@ -1,0 +1,20 @@
+version: '3.8'
+
+services:
+  apache-web:
+    image: httpd:2.4-alpine
+    container_name: minha-aplicacao-web
+    ports:
+      - "8080:80"
+    volumes:
+      - ./app:/usr/local/apache2/htdocs/
+    restart: unless-stopped
+    environment:
+      - APACHE_RUN_USER=www-data
+      - APACHE_RUN_GROUP=www-data
+    networks:
+      - web-network
+
+networks:
+  web-network:
+    driver: bridge
