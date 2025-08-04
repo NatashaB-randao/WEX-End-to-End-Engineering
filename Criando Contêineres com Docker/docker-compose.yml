@@ -1,20 +1,10 @@
-version: '3.8'
-
 services:
-  apache-web:
-    image: httpd:2.4-alpine
-    container_name: minha-aplicacao-web
+  # Serviço da sua aplicação FastAPI
+  app:
+    build:       # Constrói a imagem a partir do Dockerfile na raiz do projeto
+      context: .
+    container_name: api  # Movido para fora da seção build
     ports:
-      - "8080:80"
+      - "8000:8000"  # Mapeia a porta 8000 do host para a porta 8000 do container
     volumes:
-      - ./app:/usr/local/apache2/htdocs/
-    restart: unless-stopped
-    environment:
-      - APACHE_RUN_USER=www-data
-      - APACHE_RUN_GROUP=www-data
-    networks:
-      - web-network
-
-networks:
-  web-network:
-    driver: bridge
+      - .:/app  # Monta o diretório atual no container para desenvolvimento.
