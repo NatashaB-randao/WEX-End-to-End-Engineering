@@ -49,23 +49,25 @@ O projeto de implementação de ferramentas AWS foi dividido em 3 etapas, cada u
 **Principal Ganho:** Flexibilidade para escalar recursos conforme demanda sazonal (períodos de alta procura por medicamentos) e pagamento apenas pelos recursos utilizados.
 
 ## 💰 Análise Financeira
+*Nota: Os valores apresentados são estimativas baseadas em cenários típicos de mercado para empresas farmacêuticas de médio porte. Recomenda-se análise específica com a AWS Calculator para cálculos precisos.*
+
 
 ### Custos Antes da Migração (Mensal):
-- Infraestrutura física: R$ 45.000
-- Licenças de software: R$ 28.000
+- Infraestrutura física (servidores, storage): R$ 45.000
+- Licenças de software (BD, backup, OS): R$ 28.000
 - Manutenção e suporte: R$ 22.000
-- Energia e refrigeração: R$ 8.000
-- Pessoal técnico dedicado: R$ 15.000
-- **Total:** R$ 118.000/mês
+- Energia e refrigeração do datacenter: R$ 8.000
+- Pessoal técnico dedicado (2-3 profissionais): R$ 15.000
+- **Total Estimado:** R$ 118.000/mês
 
 ### Custos Após Migração AWS (Mensal):
-- Amazon S3: R$ 3.500
-- Amazon RDS: R$ 8.500
-- Amazon EC2: R$ 12.000
-- Suporte AWS: R$ 2.000
-- **Total:** R$ 26.000/mês
+- Amazon S3 (armazenamento + transferências): R$ 3.500
+- Amazon RDS (instâncias + backup): R$ 8.500
+- Amazon EC2 (compute + EBS): R$ 12.000
+- Suporte AWS Business: R$ 2.000
+- **Total Projetado:** R$ 26.000/mês
 
-### **Economia Total: R$ 92.000/mês (78% de redução)**
+### **Economia Total Estimada: R$ 92.000/mês (78% de redução)**
 
 ## 📊 Conclusão
 
