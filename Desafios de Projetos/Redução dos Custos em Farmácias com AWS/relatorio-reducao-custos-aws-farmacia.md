@@ -2,7 +2,7 @@
 
 **Data:** 14 de agosto de 2025  
 **Empresa:** PharmaDist Solutions  
-**Responsável:** Natasha Brandão  
+**Responsável:** Natasha Brandão 
 
 ## 📋 Introdução
 
@@ -22,7 +22,7 @@ O projeto de implementação de ferramentas AWS foi dividido em 3 etapas, cada u
 - Economia de aproximadamente R$ 25.000/mês em licenças de software de backup
 - Modelo pay-as-you-use: pagamento apenas pelo armazenamento utilizado
 
-**Principal Ganho:** Escalabilidade automática e redução drástica de custos operacionais, com disponibilidade 99.999999999% (11 noves) dos dados.
+**Principal Ganho:** Escalabilidade automática e redução drástica de custos operacionais, com durabilidade de 99,999999999% (11 noves) dos dados. Isso significa que em 10 milhões de objetos armazenados, você pode esperar perder apenas 1 objeto a cada 10.000 anos, garantindo segurança excepcional para documentos críticos como receitas médicas e relatórios regulatórios.
 
 ### Etapa 2: Amazon RDS (Relational Database Service)
 **Foco:** Gerenciamento de banco de dados  
@@ -83,8 +83,7 @@ A implementação de ferramentas AWS na empresa PharmaDist Solutions resultou em
 
 **Assinatura do Responsável pelo Projeto:**
 
-[Natasha V. Corrêa Brandão]  
-*Certificado AWS Solutions Architect*
+Natasha V. Corrêa Brandão
 
 ---
 
